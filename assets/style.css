@@ -1,15 +1,38 @@
+/*Google Font import*/
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /*header*/
+
 header {
-    color: pink;
-    font-size: xx-large;
+    background-color: #E4C1A2;
+    color: #E5956A;
+    font-family: 'Abril Fatface', serif;
+}
+
+#menu {
+    text-decoration: none;
+    color: #ffff;
+    list-style-type: none;
+    text-align: center;
+    display: flex;
 }
 
 /*maincontent*/
 main {
     color: green;
+    font-family: 'Raleway',
+        sans-serif;
 }
 
 /*footer*/
 footer {
-    color: aqua
+    color: black
+}
+
+#social-media {
+    text-align: center;
+    display: flex;
+    list-style-type: none;
+    padding: 10px 0;
+    justify-content: space-evenly;
+    color: #00000;
 }
