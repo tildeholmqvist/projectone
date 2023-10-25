@@ -1,4 +1,15 @@
-h1 {
+/*header*/
+header {
     color: pink;
     font-size: xx-large;
+}
+
+/*maincontent*/
+main {
+    color: green;
+}
+
+/*footer*/
+footer {
+    color: aqua
 }
