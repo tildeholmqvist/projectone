@@ -26,7 +26,6 @@ header {
     position: fixed;
     width: 100%;
     height: fit-content;
-    z-index: 99;
     flex-direction: column;
     box-shadow: 0 1px 2px #de8b5e;
 }
@@ -44,6 +43,7 @@ header a {
     justify-content: center;
     align-items: center;
     flex: 1;
+
 }
 
 #menu {
@@ -65,12 +65,13 @@ header a {
     align-items: center;
     text-align: center;
     text-transform: uppercase;
+    margin-bottom: 5px;
 
 
 }
 
 .active {
-    border-bottom: 1px solid #0c0602;
+    border-bottom: 3px solid #E4C1A2;
 }
 
 /*maincontent*/
@@ -78,7 +79,10 @@ main {
     background-color: #E4C1A2;
     font-family: 'Raleway',
         sans-serif;
-    flex: 0 1 auto;
+    top: 100%;
+    margin-top: 150px;
+    min-height: 100vh;
+
 }
 
 #welcome {
@@ -88,17 +92,35 @@ main {
     color: #E5956A;
 }
 
+
+#genre {
+    color: #ffffff;
+    border: 2px solid #E5956A;
+}
+
 /*footer*/
+
+/*this code is the same as in the love-running project, since that is how i wanted it to look*/
 #social-media {
-    text-align: justify;
+    text-align: center;
     display: flex;
     justify-content: space-evenly;
     color: #ffff;
     text-decoration: none;
     list-style-type: none;
+
 }
 
 #social-media>a {
     text-decoration: none;
     color: #ffff;
+}
+
+#where {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 80%;
+    margin-bottom: 20px;
 }
