@@ -1,7 +1,7 @@
 /*Google Font import*/
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-/*general style for all elements*/
+/*general style that overrides for all elements*/
 * {
     /*this style is from the love-running project, to get the same result*/
     padding: 0;
@@ -9,11 +9,29 @@
     box-sizing: border-box;
 }
 
+/*general styles*/
+
+body {
+    background-color: #E4C1A2;
+    color: #ffff;
+    display: flex;
+    flex-direction: column;
+}
+
 /*header*/
 header {
-    background-color: #E4C1A2;
-    color: #E5956A;
+    background-color: #E5956A;
     font-family: 'Abril Fatface', serif;
+}
+
+#logo {
+    font-family: 'Abril Fatface',
+        serif;
+    font-size: 300%;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    color: #ffff;
 }
 
 #menu {
@@ -24,23 +42,28 @@ header {
     display: flex;
 }
 
+a {
+    text-decoration: none;
+}
+
 /*maincontent*/
 main {
-    color: green;
+    background-color: #E4C1A2;
     font-family: 'Raleway',
         sans-serif;
+    flex: 0 1 auto;
+
 }
 
 /*footer*/
-footer {
-    color: black
-}
+footer {}
 
 #social-media {
     text-align: center;
     display: flex;
-    list-style-type: none;
     padding: 10px 0;
     justify-content: space-evenly;
-    color: black;
+    color: #ffff;
+    text-decoration: none;
+    list-style-type: none;
 }
