@@ -85,13 +85,30 @@ main {
 
 }
 
+/*hero*/
+
+#hero {
+    height: 200px;
+    width: 100%;
+    background: url("../assets/images/bok.jpg") cover/center;
+}
+
 #welcome {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #E5956A;
+    color: #e18b5c;
+    background-color: #e9d5c3;
+    margin: 0 30% auto;
+    padding: 50px;
 }
 
+#location {
+    color: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 #genre {
     color: #ffffff;
@@ -111,9 +128,10 @@ main {
 
 }
 
-#social-media>a {
+#social-media>li>a {
     text-decoration: none;
     color: #ffff;
+    font-size: 120%;
 }
 
 #where {
