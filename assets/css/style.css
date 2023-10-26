@@ -22,28 +22,55 @@ body {
 header {
     background-color: #E5956A;
     font-family: 'Abril Fatface', serif;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: fit-content;
+    z-index: 99;
+    flex-direction: column;
+    box-shadow: 0 1px 2px #de8b5e;
+}
+
+header a {
+    color: inherit;
+    text-decoration: none;
 }
 
 #logo {
-    font-family: 'Abril Fatface',
-        serif;
     font-size: 300%;
-    text-align: center;
-    padding: 10px;
     text-decoration: none;
     color: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
 }
 
 #menu {
     text-decoration: none;
-    color: #ffff;
     list-style-type: none;
-    text-align: center;
     display: flex;
+    justify-content: center;
+    padding-top: 20px;
 }
 
-a {
+#menu>li {
+    color: inherit;
     text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 100%;
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+
+}
+
+.active {
+    border-bottom: 1px solid #0c0602;
 }
 
 /*maincontent*/
@@ -52,18 +79,26 @@ main {
     font-family: 'Raleway',
         sans-serif;
     flex: 0 1 auto;
+}
 
+#welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5956A;
 }
 
 /*footer*/
-footer {}
-
 #social-media {
-    text-align: center;
+    text-align: justify;
     display: flex;
-    padding: 10px 0;
     justify-content: space-evenly;
     color: #ffff;
     text-decoration: none;
     list-style-type: none;
+}
+
+#social-media>a {
+    text-decoration: none;
+    color: #ffff;
 }
