@@ -112,8 +112,14 @@ main {
 
 #genre {
     color: #ffffff;
-    border: 2px solid #E5956A;
+    width: auto;
+    font-size: 110%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    font-style: bold;
 }
+
 
 /*footer*/
 
