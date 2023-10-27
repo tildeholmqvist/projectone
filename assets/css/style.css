@@ -76,7 +76,6 @@ header a {
 }
 
 /*hero*/
-
 #hero {
     height: 100px;
     width: 100%;
@@ -103,7 +102,7 @@ main {
     justify-content: center;
     align-items: center;
     color: #e18b5c;
-    margin: 0 30% auto;
+    margin-top: 215px;
     padding: 50px;
 }
 
