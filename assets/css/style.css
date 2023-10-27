@@ -90,7 +90,11 @@ main {
 #hero {
     height: 200px;
     width: 100%;
-    background: url("../assets/images/bok.jpg") cover/center;
+    background-image: url("../images/bok.jpg");
+    background-size: cover;
+    background-position: center;
+
+
 }
 
 #welcome {
@@ -111,14 +115,12 @@ main {
 }
 
 #genre {
-    color: #ffffff;
-    width: auto;
-    font-size: 110%;
     display: flex;
-    justify-content: space-evenly;
-    margin-top: 40px;
-    font-style: bold;
+    align-items: left;
+    margin-top: 50px;
 }
+
+
 
 
 /*footer*/
@@ -131,6 +133,7 @@ main {
     color: #ffff;
     text-decoration: none;
     list-style-type: none;
+    padding: 20px 0;
 
 }
 
@@ -138,6 +141,7 @@ main {
     text-decoration: none;
     color: #ffff;
     font-size: 120%;
+
 }
 
 #where {
