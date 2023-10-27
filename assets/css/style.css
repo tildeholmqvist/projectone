@@ -114,10 +114,13 @@ main {
 }
 
 #genre {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+    display: grid;
     flex-wrap: wrap;
+    /*code is from developer.modzilla.org*/
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    margin-top: 20px;
+
 }
 
 #genre h3 {
@@ -128,36 +131,14 @@ main {
     justify-content: flex;
 }
 
-#genre>#romance {
-    line-height: 15px;
-    margin-bottom: 15px;
-}
 
-#genre>#classics {
-    line-height: 15px;
-    margin-bottom: 15px;
-}
-
-#genre>#fantasy {
-    line-height: 15px;
-    margin-bottom: 15px;
-}
-
-#genre>#crimes {
-    line-height: 15px;
-    margin-bottom: 15px;
-}
-
-#genre>#horror {
-    line-height: 15px;
-    margin-bottom: 15px;
-}
 
 /* styles for about.html*/
 
 #about {
     display: flex;
     padding: 10%;
+    margin-top: 100px;
 
 }
 
@@ -198,7 +179,10 @@ main {
     justify-content: center;
     background-position: center;
     text-align: center;
+    margin-top: 150px;
+
 }
+
 
 .text-input:hover {
     border-color: #e18b5c;
