@@ -123,7 +123,26 @@ main {
     margin-top: 50px;
 }
 
+/*form styles*/
+#form {
+    position: relative;
+    justify-content: center;
+    background-position: center;
+    text-align: center;
+}
 
+.text-input:hover {
+    border-color: #e18b5c;
+}
+
+.join-button {
+    font-size: 200%;
+    padding: 10px;
+    margin: 30px;
+    font-family: 'Abril Fatface',
+        serif;
+    color: #E5956A;
+}
 
 
 /*footer*/
