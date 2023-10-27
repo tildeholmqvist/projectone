@@ -79,8 +79,7 @@ main {
     background-color: #E4C1A2;
     font-family: 'Raleway',
         sans-serif;
-    top: 100%;
-    margin-top: 150px;
+    margin-top: 200px;
     min-height: 100vh;
 
 }
@@ -89,7 +88,7 @@ main {
 
 #hero {
     height: 120px;
-    max-width: 100%;
+    width: 100%;
     background-image: url("../images/bok.jpg");
     background-size: cover;
     background-position: center;
@@ -105,7 +104,6 @@ main {
     justify-content: center;
     align-items: center;
     color: #e18b5c;
-    background-color: #cd4e4e;
     margin: 0 30% auto;
     padding: 50px;
 }
@@ -121,6 +119,40 @@ main {
     display: flex;
     flex-direction: column;
     width: 100%;
+    flex-wrap: wrap;
+}
+
+#genre h3 {
+    font-size: 120%;
+    margin-bottom: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: flex;
+}
+
+#genre>#romance {
+    line-height: 15px;
+    margin-bottom: 15px;
+}
+
+#genre>#classics {
+    line-height: 15px;
+    margin-bottom: 15px;
+}
+
+#genre>#fantasy {
+    line-height: 15px;
+    margin-bottom: 15px;
+}
+
+#genre>#crimes {
+    line-height: 15px;
+    margin-bottom: 15px;
+}
+
+#genre>#horror {
+    line-height: 15px;
+    margin-bottom: 15px;
 }
 
 /*gallery for the about page*/
@@ -162,6 +194,9 @@ main {
     text-decoration: none;
     list-style-type: none;
     padding: 20px 0;
+    position: fixed;
+    bottom: 25px;
+    width: 100%;
 
 }
 
@@ -179,4 +214,7 @@ main {
     margin-top: 30px;
     font-size: 80%;
     margin-bottom: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
