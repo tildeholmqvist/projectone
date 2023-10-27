@@ -186,25 +186,39 @@ main {
 /*footer*/
 
 /*this code is the same as in the love-running project, since that is how i wanted it to look*/
-#social-media {
+
+footer {
+    background-color: #E5956A;
+    bottom: 0;
     text-align: center;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     color: #ffff;
     text-decoration: none;
-    list-style-type: none;
-    padding: 20px 0;
     position: fixed;
-    bottom: 25px;
     width: 100%;
+    margin-bottom: 0;
+}
 
+#social-media {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 0;
+
+}
+
+#social-media>li {
+    display: flex;
+    align-items: center;
 }
 
 #social-media>li>a {
     text-decoration: none;
     color: #ffff;
     font-size: 120%;
-
+    background-color: #E5956A;
+    padding: 10px 20px;
 }
 
 #where {
@@ -214,7 +228,7 @@ main {
     margin-top: 30px;
     font-size: 80%;
     margin-bottom: 20px;
-    position: fixed;
     bottom: 0;
     width: 100%;
+
 }
