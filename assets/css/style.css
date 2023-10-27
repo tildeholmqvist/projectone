@@ -153,10 +153,43 @@ main {
     margin-bottom: 15px;
 }
 
-/*gallery for the about page*/
+/* styles for about.html*/
 
-#gallery {
-    column-count: 4;
+#about {
+    display: flex;
+    padding: 10%;
+
+}
+
+#about h1 {
+    font-family: 'Abril Fatface', serif;
+    font-size: 200%;
+    padding: 12px 0;
+}
+
+#about p {
+    font-size: 100%;
+}
+
+#join>a {
+    font-family: 'Abril Fatface', serif;
+    padding: 10px;
+    text-decoration: none;
+    color: inherit;
+    padding-bottom: 10px;
+}
+
+#join>a:hover {
+    color: #e18b5c;
+}
+
+/*gallery for the about page*/
+#photos img {
+    width: 100%;
+}
+
+#photos {
+    column-count: 3;
 }
 
 /*form styles*/
