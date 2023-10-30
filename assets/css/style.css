@@ -84,15 +84,18 @@ header a {
     border-bottom: 3px solid #E4C1A2;
 }
 
+/*hero*/
 
+#hero {
+    height: 75vh;
+    width: 100%;
+    background-image: url("../images/pexels-aline-viana-prado-2465877\ \(1\).jpg");
+    background-size: cover;
+    background-position: center;
+    margin-top: fit-content;
+    padding-top: 0;
+    position: relative;
 
-
-/*div class container*/
-.container {
-    display: flex;
-    flex-direction: row;
-    width: 100vw;
-    height: 100vh;
 }
 
 /*maincontent*/
@@ -105,25 +108,8 @@ main>#front-page {
     flex: 1;
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 100%;
 
-}
-
-/*this code is partly from love running project*/
-
-#cover-text {
-    background-color: rgba(187, 182, 180, 0.9);
-    font-size: 100%;
-    position: fixed;
-    margin-top: 10px;
-    width: 40%;
-    min-height: 200px;
-    padding: 40px;
-    border-radius: 50%;
-    color: #ffffff;
-    align-items: center;
-    font-family: 'Abril Fatface',
-        serif;
 }
 
 #heading-main {
@@ -299,143 +285,5 @@ footer {
     font-size: 80%;
     bottom: 0;
     width: 100%;
-
-}
-
-@media screen and (max-width:1113px) {
-    #cover-text {
-        display: none;
-    }
-}
-
-/* media query for tablets and desktops larger (768px)*/
-@media screen and (min-width:768px) {
-
-    /*hero*/
-    #hero {
-        height: 100vh;
-        width: 100%;
-        background-image: url("../images/pexels-aline-viana-prado-2465877\ \(1\).jpg");
-        background-size: cover;
-        background-position: center;
-        margin-top: fit-content;
-        padding-top: 0;
-        position: relative;
-        float: right;
-    }
-
-    /*div class container*/
-    .container {
-        display: flex;
-        flex-direction: row;
-        width: 100vw;
-        height: 100vh;
-    }
-
-    /*maincontent*/
-    main>#front-page {
-        background-color: #ffffff;
-        font-family: 'Raleway',
-            sans-serif;
-        min-height: 80vh;
-        margin-top: fit-content;
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-        width: 50%;
-
-    }
-
-    #heading-main {
-        font-size: 150%;
-        color: rgba(0, 0, 0, 0.9);
-        gap: 10px;
-        padding: 20px;
-        font-family: 'Abril Fatface',
-            serif;
-    }
-
-    #heading-main>h4 {
-        color: #E5956A;
-        margin-top: 10px;
-        font-size: 100%;
-    }
-
-    #genre {
-        padding: 20px;
-        display: grid;
-        width: 60%;
-        /*code is from developer.modzilla.org*/
-        grid-template-columns: repeat(3, 1fr);
-        gap: 10px;
-        margin-top: 20px;
-    }
-
-    #genre>div {
-        border: 2px #e18b5c solid;
-        text-align: center;
-        margin-top: 10px;
-        padding: 30px;
-        background-color: #ffffff;
-        margin-left: 30px;
-
-    }
-
-    #genre h3 {
-        font-size: 120%;
-        margin-bottom: 15px;
-        text-align: center;
-        display: center;
-        justify-content: flex;
-        color: #e18b5c;
-    }
-
-    #genre i {
-        margin-right: 10px;
-    }
-
-    #direction>a {
-        text-decoration: none;
-        color: inherit;
-        padding: 10px;
-    }
-
-    #direction>a:hover {
-        color: #e18b5c;
-    }
-}
-
-@media screen and (max-width:768px) {
-
-    header {
-        padding: 10px 0;
-        width: 100%;
-    }
-
-    #menu {
-        flex-direction: column;
-    }
-
-    /*hero*/
-    #hero {
-        height: 50vh;
-        width: 100%;
-        background-image: url("../images/pexels-aline-viana-prado-2465877\ \(1\).jpg");
-        background-position: top;
-        float: none;
-    }
-
-    .container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    main>#front-page {
-        background-color: #ffffff;
-        width: 100%;
-        margin-top: 0;
-        margin-bottom: 20px;
-
-    }
 
 }
