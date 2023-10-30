@@ -80,9 +80,9 @@ header a {
 
 /*hero*/
 #hero {
-    height: 100px;
+    height: 100vh;
     width: 100%;
-    background-image: url("../images/bok.jpg");
+    background-image: url("../images/pexels-aline-viana-prado-2465877\ \(1\).jpg");
     background-size: cover;
     background-position: center;
     margin-top: fit-content;
