@@ -135,23 +135,30 @@ main>#front-page {
     display: grid;
     width: 60%;
     justify-content: center;
+    align-items: center;
     /*code is from developer.modzilla.org*/
     grid-template-columns: repeat(3, 1fr);
-    margin-top: 20px;
-    
+
+    margin: 0 auto;
+
 }
 
-#genre>div {
+#genre>#romance,
+#classics,
+#fantasy,
+#crimes,
+#horror,
+#direction {
     border: 2px #e18b5c solid;
     text-align: center;
     margin-top: 10px;
     padding: 30px;
     background-color: #ffffff;
-    margin-left: 30px;
+    margin: 10px;
     justify-content: center;
     align-items: center;
-
 }
+
 
 #genre h3 {
     font-size: 120%;
@@ -169,7 +176,8 @@ main>#front-page {
 #direction>a {
     text-decoration: none;
     color: inherit;
-    padding: 10px;
+    padding: 20px;
+    margin: inherit;
 }
 
 #direction>a:hover {
