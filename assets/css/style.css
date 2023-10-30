@@ -95,6 +95,14 @@ header a {
     float: right;
 }
 
+/*div class container*/
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+
 /*maincontent*/
 main {
     background-color: #f3eee4;
@@ -104,36 +112,25 @@ main {
     margin-top: fit-content;
     flex: 1;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    flex-direction: column;
     width: 50%;
 
 }
 
-.column {
-    flex: 1;
-    max-width: 300px;
-    margin: 20px;
-    padding: 20px;
-    box-sizing: border-box;
-}
 
 
-#welcome {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #e18b5c;
-    margin-top: 215px;
-    padding: 50px;
+#cover-text h2 {
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+    color: #ffffff;
 }
 
-#location {
-    color: rgb(0, 0, 0);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 #genre {
     display: grid;
