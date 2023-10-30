@@ -138,7 +138,6 @@ main>#front-page {
     align-items: center;
     /*code is from developer.modzilla.org*/
     grid-template-columns: repeat(3, 1fr);
-
     margin: 0 auto;
 
 }
@@ -155,6 +154,7 @@ main>#front-page {
     padding: 30px;
     background-color: #ffffff;
     margin: 10px;
+    width: 200px;
     justify-content: center;
     align-items: center;
 }
@@ -176,12 +176,19 @@ main>#front-page {
 #direction>a {
     text-decoration: none;
     color: inherit;
-    padding: 20px;
-    margin: inherit;
+    padding: 30px;
+    margin: 10px;
+}
+
+#direction>h3>a {
+    text-decoration: none;
+    color: inherit;
+
 }
 
 #direction>a:hover {
     color: #e18b5c;
+    text-decoration: none;
 }
 
 /* styles for about.html*/
