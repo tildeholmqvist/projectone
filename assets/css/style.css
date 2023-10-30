@@ -12,8 +12,8 @@
 /*general styles*/
 
 body {
-    background-color: #E4C1A2;
-    color: #ffff;
+    background-color: #ffff;
+    color: rgb(0, 0, 0);
     display: flex;
     flex-direction: column;
 }
@@ -56,7 +56,7 @@ header a {
 }
 
 #menu>li {
-    color: inherit;
+    color: #ffffff;
     text-decoration: none;
     letter-spacing: 1px;
     font-size: 100%;
@@ -89,7 +89,7 @@ header a {
 
 /*maincontent*/
 main {
-    background-color: #E4C1A2;
+    background-color: #f3eee4;
     font-family: 'Raleway',
         sans-serif;
     min-height: 100vh;
@@ -107,7 +107,7 @@ main {
 }
 
 #location {
-    color: #ffff;
+    color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -115,11 +115,20 @@ main {
 
 #genre {
     display: grid;
-    flex-wrap: wrap;
+    width: 60%;
+
     /*code is from developer.modzilla.org*/
     grid-template-columns: repeat(3, 1fr);
     gap: 5px;
     margin-top: 20px;
+}
+
+#genre>div {
+    border: 2px #e18b5c solid;
+    text-align: center;
+    margin-top: 10px;
+    padding: 20px;
+    background-color: #ffffff;
 
 }
 
@@ -127,11 +136,14 @@ main {
     font-size: 120%;
     margin-bottom: 15px;
     text-align: center;
-    display: flex;
+    display: center;
     justify-content: flex;
+    color: #e18b5c;
 }
 
-
+#genre i {
+    margin-right: 10px;
+}
 
 /* styles for about.html*/
 
