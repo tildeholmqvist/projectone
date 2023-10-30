@@ -105,7 +105,7 @@ header a {
 
 /*maincontent*/
 main {
-    background-color: #f3eee4;
+    background-color: #ffffff;
     font-family: 'Raleway',
         sans-serif;
     min-height: 100vh;
@@ -134,14 +134,28 @@ main {
         serif;
 }
 
+#heading-main {
+    font-size: 150%;
+    color: rgba(255, 158, 131, .9);
+    gap: 10px;
+    padding: 20px;
+    font-family: 'Abril Fatface',
+        serif;
+}
+
+#heading-main>h4 {
+    color: #E5956A;
+    margin-top: 10px;
+    font-size: 100%;
+}
 
 #genre {
+    padding: 20px;
     display: grid;
     width: 60%;
-
     /*code is from developer.modzilla.org*/
     grid-template-columns: repeat(3, 1fr);
-    gap: 5px;
+    gap: 10px;
     margin-top: 20px;
 }
 
@@ -149,8 +163,9 @@ main {
     border: 2px #e18b5c solid;
     text-align: center;
     margin-top: 10px;
-    padding: 20px;
+    padding: 30px;
     background-color: #ffffff;
+    margin-left: 30px;
 
 }
 
@@ -165,6 +180,16 @@ main {
 
 #genre i {
     margin-right: 10px;
+}
+
+#direction>a {
+    text-decoration: none;
+    color: inherit;
+    padding: 10px;
+}
+
+#direction>a:hover {
+    color: #e18b5c;
 }
 
 /* styles for about.html*/
