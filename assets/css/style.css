@@ -365,6 +365,8 @@ footer {
         /*code is from developer.modzilla.org*/
         grid-template-columns: repeat(2, 1fr);
         margin: 0 auto;
+        margin-bottom: 60px;
+
 
     }
 
@@ -403,7 +405,7 @@ footer {
         text-decoration: none;
         color: inherit;
         padding: 30px;
-        margin: 10px;
+        margin: 20px;
     }
 
     #direction>h3>a {
