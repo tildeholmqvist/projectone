@@ -7,8 +7,15 @@ The website includes three pages, one frontpage with a short info about differen
 one page about the story of the deployment of the bookclub, and one page with a signup form, allowing the visitor to sign up for one of the clubs. 
 
 
-# features
+## Features
 
-# testing 
+- Navigation
+ - Home
+ - About us
+ - Sign Up 
+
+### Navigation
+
+The navigation section is based at the top of the page, inside the header and allows the visiter to navigate through the different pages by clicking on the names of the page under the logo. 
 
 # deployment
