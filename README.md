@@ -1,7 +1,11 @@
-# Mitt första projekt namn?
+# The Bookclub
 
-Här kommer det börja med en "säljpitch" där jag ska förllara idén bakok hemsidan.
-vem är min publik och vad ger denna hemsida dem?
+The Bookclub is the website for the Gothenburg based bookclub with the same name.
+The site is created for the audience that wants to know more about this bookclub and hopefully is interested to join. 
+
+The website includes three pages, one frontpage with a short info about different groups, 
+one page about the story of the deployment of the bookclub, and one page with a signup form, allowing the visitor to sign up for one of the clubs. 
+
 
 # features
 

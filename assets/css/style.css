@@ -139,6 +139,7 @@ main>#front-page {
     /*code is from developer.modzilla.org*/
     grid-template-columns: repeat(3, 1fr);
     margin: 0 auto;
+    margin-bottom: 20px;
 
 }
 
@@ -233,6 +234,7 @@ main>#front-page {
 
 #photos {
     column-count: 3;
+
 }
 
 /*form styles*/
@@ -259,6 +261,7 @@ main>#front-page {
         serif;
     color: #E5956A;
     background-color: #ffffff;
+    border: rgb(0, 0, 0) 2px solid;
 }
 
 
