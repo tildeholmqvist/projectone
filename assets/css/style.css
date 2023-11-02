@@ -264,6 +264,16 @@ main>#front-page {
     border: rgb(0, 0, 0) 2px solid;
 }
 
+#form-image {
+    height: 70vh;
+    width: 100%;
+    background-image: url("../images/pexels-tiana-2898170.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-top: fit-content;
+    position: relative;
+    margin-bottom: 0;
+}
 
 /*footer*/
 
@@ -443,9 +453,6 @@ footer {
         padding-left: 10px;
         padding-right: 20px;
         margin: 10px;
-
-
-
     }
 
     #gallery {
