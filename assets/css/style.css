@@ -480,5 +480,7 @@ footer {
 
     #gallery {
         margin-bottom: 80px;
+        margin: 0;
+        padding: 0;
     }
 }

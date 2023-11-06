@@ -14,22 +14,29 @@ one page about the story of the deployment of the bookclub, and one page with a 
  - About us
  - Sign Up 
 
-### Navigation
+### Header & Navigation
 
-The navigation section is based at the top of the page, inside the header and allows the visiter to navigate through the different pages by clicking on the names of the page under the logo.
+The navigation section is based at the top of the page, inside the header and allows the visiter to navigate through the different parts of the page by clicking on the names of the page under the logo.
+The design of the header is simple, with a clean layout followed by a image depicting an open book.
 
-#### Home 
+#### Homepage, about us & sign up
 
-My home page layout is of a big hero picture depicting an open book followed by a section explaining for the visitors the different bookclub groups the visiter aan join in, and also a link to the signup form where they can sign up to one of the clubs depending on what genre they are most into. 
+In the homepage you can find all the information on the website, since it's a flowing layout and not placed on different pages. The first part of the page is the "home page" wich is a section explaining to the visitor what kind of different clubs and genres there is, what times the meeting is at and where they're placed.
 
-#### About Us
+The second part is the "About us" section thats includes a short introduction about what the clubs goals and visions is, and how it all started, followed by different images showing off the current community. 
 
-The About us page includes a text about how the bookclub was started and what the goals of the club is. 
-It also contains a photogallery and a link to the signup form. 
+The third part is the sign me up form, where you as a user can choose a club to join. The visitor has to add their first name, last name and email adress before choosing what genre they prefer.
 
-#### Sign up
+### Footer
 
-This is a form for every visitor wanting to sign up. 
-They have to put in their name, email and what genre they are interested of. 
+My footer contains the different symbols for the websites different socialmedia accounts, and an adress to where to find the bookclubs office. 
+
+# Layout & Design 
+
+My layout is simple and easy to navigate through. I choose to work with colours in the red,orange and yellow spectra, since I found them fitting to the website and thats also why I choose to add these images, since they're in the same colourscheme. 
+
+# Testing
+
+
 
 # deployment
