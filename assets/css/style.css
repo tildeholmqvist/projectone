@@ -240,24 +240,12 @@ main>#front-page {
 #about-image {
     height: 50vh;
     width: 100%;
-    background-image: url("../images/pexels-elīna-arāja-3309961.jpg");
+    background-image: url("../images/pexels-tiana-2898170.jpg");
     background-size: cover;
     background-position: center;
     margin-top: fit-content;
     position: relative;
     margin-bottom: 0;
-}
-
-/*gallery for the about page*/
-#photos img {
-    width: 100%;
-    margin-bottom: 60px;
-    padding: 0;
-}
-
-#photos {
-    column-count: 3;
-
 }
 
 /*form styles*/
@@ -290,12 +278,24 @@ main>#front-page {
 #form-image {
     height: 50vh;
     width: 100%;
-    background-image: url("../images/pexels-tiana-2898170.jpg");
+    background-image: url("../images/pexels-elīna-arāja-3309961.jpg");
     background-size: cover;
     background-position: center;
     margin-top: fit-content;
     position: relative;
     margin-bottom: 0;
+}
+
+/*gallery*/
+#photos img {
+    width: 100%;
+    margin-bottom: 60px;
+    padding: 0;
+}
+
+#photos {
+    column-count: 3;
+
 }
 
 /*footer*/

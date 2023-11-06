@@ -37,6 +37,26 @@ My layout is simple and easy to navigate through. I choose to work with colours 
 
 # Testing
 
+For the testing of my webpage I have used different browser to make sure that my website works on all different platforms, so as Google Chrome, Safari and Firefox. 
+I also used the google tool to make sure my page is responsive and that it fits different screen sizes. 
 
+On top of this I let my friends and family try it out too, on their own choice of device to make sure it is responsive. 
 
-# deployment
+## W3C Validator HTML
+
+When checking my code on W3C Validator I got a few warnings but no errors. 
+
+## W3C Validator CSS
+
+## Lighthouse 
+
+When I checked my webpage through Lighthouse I got different results depending if i tried it out on the mobile version or the desktop one. 
+
+# Deployment
+
+# Credits 
+
+## media 
+## google fonts 
+## font icon 
+
