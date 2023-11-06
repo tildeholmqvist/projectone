@@ -159,6 +159,7 @@ main>#front-page {
     justify-content: center;
     align-items: center;
     height: 150px;
+    margin-bottom: 20px;
 }
 
 
@@ -222,6 +223,10 @@ main>#front-page {
     color: #E5956A;
     padding-bottom: 10px;
     margin-bottom: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
 }
 
 #join>a:hover {
