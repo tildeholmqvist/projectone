@@ -201,6 +201,7 @@ main>#front-page {
     padding: 20px;
     margin: 20px;
     justify-content: space-evenly;
+    margin-top: 50px;
 }
 
 #about h1 {
@@ -226,16 +227,20 @@ main>#front-page {
     text-align: center;
     align-items: center;
     justify-content: center;
+    display: flex;
+    flex-direction: column;
+
 
 }
 
 #join>a:hover {
-    color: #e18b5c;
+    color: #d67845;
 }
 
 /*gallery for the about page*/
 #photos img {
     width: 100%;
+    margin-bottom: 60px;
 }
 
 #photos {
