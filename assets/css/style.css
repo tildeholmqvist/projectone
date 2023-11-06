@@ -87,7 +87,7 @@ header a {
 /*hero*/
 
 #hero {
-    height: 75vh;
+    height: 65vh;
     width: 100%;
     background-image: url("../images/pexels-aline-viana-prado-2465877.jpg");
     background-size: cover;
@@ -252,6 +252,7 @@ main>#front-page {
 #photos img {
     width: 100%;
     margin-bottom: 60px;
+    padding: 0;
 }
 
 #photos {
