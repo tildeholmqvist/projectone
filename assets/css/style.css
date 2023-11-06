@@ -237,6 +237,17 @@ main>#front-page {
     color: #d67845;
 }
 
+#about-image {
+    height: 50vh;
+    width: 100%;
+    background-image: url("../images/pexels-elīna-arāja-3309961.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-top: fit-content;
+    position: relative;
+    margin-bottom: 0;
+}
+
 /*gallery for the about page*/
 #photos img {
     width: 100%;
@@ -254,7 +265,7 @@ main>#front-page {
     justify-content: center;
     background-position: center;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 60px;
     align-items: center;
     font-size: 110%;
 }
@@ -276,7 +287,7 @@ main>#front-page {
 }
 
 #form-image {
-    height: 70vh;
+    height: 50vh;
     width: 100%;
     background-image: url("../images/pexels-tiana-2898170.jpg");
     background-size: cover;
