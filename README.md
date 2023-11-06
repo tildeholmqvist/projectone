@@ -6,6 +6,8 @@ The site is created for the audience that wants to know more about this bookclub
 The website includes three pages, one frontpage with a short info about different groups, 
 one page about the story of the deployment of the bookclub, and one page with a signup form, allowing the visitor to sign up for one of the clubs. 
 
+! [Screenshot of my webpage from Am I responsive?]
+(/assets/images/amiresponsive1.png)
 
 ## Features
 
@@ -59,4 +61,6 @@ When I checked my webpage through Lighthouse I got different results depending i
 ## media 
 ## google fonts 
 ## font icon 
+## tiny png 
+## pexels 
 
