@@ -291,10 +291,12 @@ main>#front-page {
     width: 100%;
     margin-bottom: 60px;
     padding: 0;
+
 }
 
 #photos {
     column-count: 3;
+    margin: 0;
 
 }
 
