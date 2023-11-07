@@ -304,6 +304,8 @@ form * {
 /*gallery*/
 #photos img {
     width: 100%;
+    max-width: 500px;
+    height: auto;
     margin-bottom: 60px;
     padding: 0;
 
@@ -495,6 +497,8 @@ footer {
 
     #photos img {
         width: 100%;
+        max-width: 300px;
+        height: auto;
         padding: 0;
         margin: 0;
 
