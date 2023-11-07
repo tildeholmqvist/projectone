@@ -264,6 +264,22 @@ main>#front-page {
     font-size: 110%;
 }
 
+#signup>h1 {
+    font-family: 'Abril Fatface',
+        serif;
+    color: #E5956A;
+    margin-bottom: 25px;
+}
+
+form label {
+    width: 125px;
+    display: inline-block;
+    text-align: left;
+}
+
+form * {
+    margin-bottom: 12px;
+}
 
 .text-input:hover {
     border-color: #e18b5c;
@@ -318,8 +334,9 @@ footer {
     position: fixed;
     width: 100%;
     margin-bottom: 0;
-    height: 60px;
+    height: 70px;
     z-index: 1;
+
 }
 
 #social-media {
@@ -471,7 +488,7 @@ footer {
         position: fixed;
         width: 100%;
         margin-bottom: 0;
-        height: 60px;
+        height: 70px;
         z-index: 1;
         margin-top: 30px;
     }
@@ -494,7 +511,7 @@ footer {
 
     #photos {
         column-count: 3;
-        margin-bottom: 60px;
+        margin-bottom: 80px;
 
     }
 }
