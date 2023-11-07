@@ -37,7 +37,6 @@ header {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-bottom: fit-content;
     position: relative;
     z-index: 1;
 }
@@ -97,7 +96,6 @@ header a {
     background-image: url("../images/pexels-aline-viana-prado-2465877.jpg");
     background-size: cover;
     background-position: center;
-    margin-top: fit-content;
     padding-top: 0;
     position: relative;
 
@@ -109,7 +107,6 @@ main>#front-page {
     font-family: 'Raleway',
         sans-serif;
     min-height: 80vh;
-    margin-top: fit-content;
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -172,8 +169,7 @@ main>#front-page {
     font-size: 120%;
     margin-bottom: 15px;
     text-align: center;
-    display: center;
-    justify-content: flex;
+    justify-content: center;
     color: #e18b5c;
 }
 
@@ -248,7 +244,6 @@ main>#front-page {
     background-image: url("../images/pexels-tiana-2898170.jpg");
     background-size: cover;
     background-position: center;
-    margin-top: fit-content;
     position: relative;
     margin-bottom: 0;
 }
@@ -302,7 +297,6 @@ form * {
     background-image: url("../images/pexels-elīna-arāja-3309961.jpg");
     background-size: cover;
     background-position: center;
-    margin-top: fit-content;
     position: relative;
     margin-bottom: 0;
 }
@@ -380,7 +374,6 @@ footer {
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        margin-bottom: fit-content;
         position: relative;
         z-index: 1;
     }
@@ -391,7 +384,6 @@ footer {
         font-family: 'Raleway',
             sans-serif;
         min-height: 80vh;
-        margin-top: fit-content;
         flex: 1;
         display: flex;
         flex-direction: column;
@@ -452,8 +444,7 @@ footer {
         font-size: 100%;
         margin-bottom: 15px;
         text-align: center;
-        display: center;
-        justify-content: flex;
+        justify-content: center;
         color: #e18b5c;
     }
 
