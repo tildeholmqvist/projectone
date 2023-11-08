@@ -62,6 +62,12 @@ The images is depicting books and reading, to fit the cause of the site, and goe
 Im using the Abril Fatface font for all my headings on the page, and for the paragraphs and in my sign up form im using the font Raleway, with a backup of sans serif on both fonts. 
 Both the fonts is borrowed from [Google Fonts](https://fonts.google.com/).
 
+# Technologies 
+
+The technologies that is beeing used on this project is:
+- HTML 5
+- CSS
+
 
 # Testing
 
@@ -84,19 +90,41 @@ No errors where found in my css.
 
 ## Lighthouse 
 
-When I checked my webpage through Lighthouse I got different results depending if i tried it out on the mobile version or the desktop one. 
+## Broswer Testing 
 
-Form testing 
-Link Testing 
-Browser testing 
-device testing 
-technologies used
+The webpage has been tested on different broswers such as Google Chrome, Safari and Firefox and is working correctly.
+
+## Device Testing 
+
+The webpage has been tested on different devices such as Iphone, Ipad, MacBook Pro and iMac, and is working correctly. 
+
+## Chrome Dev Tool
+
+The webpage responsiveness has been tested through the Google Chrom Dev Tool and is working correctly.
+
+## Form Testing
+
+The form has been tested on different devices and different browsers, and is working correctly. 
+
+## Link Testing 
+
+The links has been tested on different devices and different browsers, and is working correctly. 
 
 # Bugs
-
-
+Unfixed Bufs
 
 # Deployment
+
+The website was deployed through the hosting platform GitHub. 
+How to deploy through GitHub: 
+- Go to GitHub.com .
+- Select the repository.
+- Once your in the repository, select settings at the top of the page to the right. 
+- In the menu to your left, go into "pages". 
+- Under "Branch" use the dropdown menu and select "main" and "/root", and save. 
+- When it's saved you will get the link to your active website. 
+
+Here you can mind the active link for [The Bookclub](https://tildeholmqvist.github.io/projectone/)
 
 # Credits 
 
