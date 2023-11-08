@@ -111,7 +111,7 @@ The form has been tested on different devices and different browsers, and is wor
 The links has been tested on different devices and different browsers, and is working correctly. 
 
 # Bugs
-Unfixed Bufs
+Unfixed 
 
 # Deployment
 
@@ -128,12 +128,12 @@ Here you can mind the active link for [The Bookclub](https://tildeholmqvist.gith
 
 # Credits 
 
-## media 
-## google fonts 
-## font icon 
-## tiny png 
-## pexels 
-
-även länkar till alla sidor jag använt ex am i responsive
-antonio
-love running 
+- [Pexels](https://www.pexels.com/sv-se/)
+- [Tiny PNG](https://tinypng.com/)
+- [Font Awesome](https://fontawesome.com/)
+- [Google Font](https://fonts.google.com/)
+- [Adobe Color](https://color.adobe.com/sv/create/color-wheel)
+- [Love Running](https://tildeholmqvist.github.io/loverunning/)
+- [Grid Templet Columns](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns)
+- Tutor Assistence for the support. 
+- My mentor Antonio for his advice.
