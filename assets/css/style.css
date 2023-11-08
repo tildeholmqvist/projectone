@@ -308,14 +308,12 @@ form * {
     height: auto;
     margin-bottom: 60px;
     padding: 0;
-    line-height: 2em;
 
 }
 
 #photos {
     column-count: 3;
     margin: 0;
-    line-height: 2em;
 
 }
 
