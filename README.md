@@ -10,7 +10,45 @@ The link to my webpage can be found here - [The Bookclub](https://tildeholmqvist
 
 ![Screenshot of my webpage from Am I responsive?](/assets/images/amiresponsive1.png)
 
-## Feature
+## Site Owner Goals
+
+- To provide the user with information about the bookclub.
+- To provide the user with information about the different clubs they can join depending on their choice of genre.
+- To present the user with a website that is easy to navigate, fully responsive and that contains a simple and calming layout and design.
+- To allow users to sign up for any of the different bookclubs.
+
+## User Stories
+
+- ### First time user
+
+  - As a first time user I want to understand what the bookclub is and what my choices in what genre, are. 
+  - As a first time user I want to be able to easly navigate through the website and easy find what I am looking for.
+  - As a first time user I want to be able to sign up for any clubs. 
+
+- ### Returning User
+
+  - As a returning user I want to easily navigate to the signup form where I can join a bookclub.
+  - As a returning user I want to be able to easily find more information about the website and it's story behind.
+  - As a returning user I want to be able to sign-up to different bookclubs.
+
+## Wireframes
+
+Wireframes were produced using Balsamiq.
+
+ <details>
+
+ <summary>Desktop Wireframe</summary>
+
+![Desktop Wireframe](assets/images/wireframe-desktop.png)
+ </details>
+
+ <details>
+    <summary>Mobile Wireframe</summary>
+
+![Mobile Wireframe](assets/images/wireframe-iphone.png)
+ </details>
+
+## Features
 
 - Navigation
  - Home
@@ -32,10 +70,9 @@ The second part is the "About us" section thats includes a short introduction ab
 
 ![Image of my about section](/assets/images/amiresponsive3.png)
 
-The third part is the sign me up form, where you as a user can choose a club to join. The visitor has to add their first name, last name and email adress before choosing what genre they prefer. When the visitor submits their answers they are being directed to the [Code Institute formdump](https://formdump.codeinstitute.net/).
+The third part is the sign me up form, where you as a user can choose a club to join. The visitor has to add their first name, last name and email adress beforechoosing what genre they prefer. When the visitor submits their answers they are being directed to the [Code Institute formdump](https://formdump.codeinstitute.net/).
 
 ![Image of my sign up section](/assets/images/amiresponsive4.png)
-
 
 
 ## Footer
@@ -51,7 +88,8 @@ For a first time visitor the webpage appears clean and structured, with soft col
 
 #### Colours
 
-The color scheme of the bookclubs website goes in red  orange and yellow. The text is in black to make it easier to read for the visitor.
+The color scheme of the bookclubs website goes in red  orange and yellow.
+I choose to work with this colors since they fit the purpose of the website well, and is both kind and calming colors. The softer colors fit the website and the purpose of the website and is a commun used colorpalette for this type of sites that often is in the brown and red spectra.  The text is in black to make it easier to read for the visitor.
 
 #### Images
 
@@ -71,11 +109,6 @@ The technologies that is beeing used on this project is:
 
 # Testing
 
-For the testing of my webpage I have used different browser to make sure that my website works on all different platforms, so as Google Chrome, Safari and Firefox. 
-I also used the google tool to make sure my page is responsive and that it fits different screen sizes. 
-
-On top of this I let my friends and family try it out too, on their own choice of device to make sure it is responsive. 
-
 ## W3C Validator HTML
 
 No errors where found in my code. 
@@ -90,6 +123,10 @@ No errors where found in my css.
 
 ## Lighthouse 
 
+![Screenshot of my lighthouse score](/assets/images/lighthouse.png)
+
+When the website was tested through Lighthouse, it got a score above 90 on all different scores.
+
 ## Broswer Testing 
 
 The webpage has been tested on different broswers such as Google Chrome, Safari and Firefox and is working correctly.
@@ -98,9 +135,9 @@ The webpage has been tested on different broswers such as Google Chrome, Safari 
 
 The webpage has been tested on different devices such as Iphone, Ipad, MacBook Pro and iMac, and is working correctly. 
 
-## Chrome Dev Tool
+## Responsiveness
 
-The webpage responsiveness has been tested through the Google Chrom Dev Tool and is working correctly.
+The webpage responsiveness has been tested through the Google Chrom Dev Tool, [Am I Responsive?](https://ui.dev/amiresponsive) and [Responsinator](http://www.responsinator.com/) and is working correctly.
 
 ## Form Testing
 
@@ -110,8 +147,17 @@ The form has been tested on different devices and different browsers, and is wor
 
 The links has been tested on different devices and different browsers, and is working correctly. 
 
-# Bugs
-Unfixed 
+# Bugs and Issues
+
+When I tested my website I did not scored 100 on accessibility, that is because of the choice of my colors. 
+I chose to keep the colors on the header and the white text anyway since the score was not to low, and the colors fits the design and layout.
+
+Another issue is the images. On a bigger screen the images appears blurry. 
+This is because I tried to compress the images to smaller sizes to get a better outcome on the score of performance and how much time my website will take to load. 
+
+# Unfixed Bugs
+
+The issue with the blurry images is still there, but I decided to keep the images blurry on desktop screens, just so I could get a better performance. 
 
 # Deployment
 
@@ -134,6 +180,8 @@ Here you can mind the active link for [The Bookclub](https://tildeholmqvist.gith
 - [Google Font](https://fonts.google.com/)
 - [Adobe Color](https://color.adobe.com/sv/create/color-wheel)
 - [Love Running](https://tildeholmqvist.github.io/loverunning/)
+- [Mind Yoga](https://aliokeeffe.github.io/mindyoga/)
 - [Grid Templet Columns](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns)
+- [Balsamic](https://balsamiq.com/wireframes/desktop/#)
 - Tutor Assistence for the support. 
 - My mentor Antonio for his advice.
